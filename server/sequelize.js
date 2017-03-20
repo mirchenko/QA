@@ -1,8 +1,8 @@
 
 import Sequelize from 'sequelize';
 
-const sequelize = new Sequelize('qa', 'bot', 'ctd0sAIXflkcqRpX', {
-  host: '138.201.245.245',
+const sequelize = new Sequelize('{dbname}', '{user}', '{password}', {
+  host: '{hostname}',
   dialect: 'mysql',
 
   pool: {
